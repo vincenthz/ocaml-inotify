@@ -1,0 +1,12 @@
+name: inotify
+version: 0.9
+description: linux inotify
+obuild-ver: 1
+
+library inotify
+  c-sources: inotify_stubs.c
+  modules: Inotify
+
+test inotify
+  main-is: test_inotify.ml
+  build-deps: inotify, unix, oUnit

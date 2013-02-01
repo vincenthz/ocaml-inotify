@@ -11,7 +11,7 @@ OCAML_TEST_INC = -I `ocamlfind query oUnit`
 OCAML_TEST_LIB = `ocamlfind query oUnit`/oUnit.cmxa
 
 LIBS = inotify.cmi inotify.cmxa inotify.cma
-PROGRAMS = test.inotify
+PROGRAMS = test_inotify
 
 PKG_NAME = inotify
 
